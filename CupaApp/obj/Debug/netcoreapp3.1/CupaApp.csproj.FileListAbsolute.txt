@@ -67,3 +67,4 @@ C:\Users\LucaE\Source\Repos\CupaApp\CupaApp\obj\Debug\netcoreapp3.1\CupaApp.View
 C:\Users\LucaE\Source\Repos\CupaApp\CupaApp\obj\Debug\netcoreapp3.1\CupaApp.dll
 C:\Users\LucaE\Source\Repos\CupaApp\CupaApp\obj\Debug\netcoreapp3.1\CupaApp.pdb
 C:\Users\LucaE\Source\Repos\CupaApp\CupaApp\obj\Debug\netcoreapp3.1\CupaApp.csproj.CopyComplete
+C:\Users\LucaE\Source\Repos\CupaApp\CupaApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\AboutUs.cshtml.g.cs
