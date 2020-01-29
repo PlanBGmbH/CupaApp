@@ -1,25 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LucaE\\Source\\Repos\\CupaApp\\CupaApp\\CupaApp.csproj": {}
+    "C:\\Users\\ThomasG\\Source\\Repos\\CupaApp\\CupaApp\\CupaApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LucaE\\Source\\Repos\\CupaApp\\CupaApp\\CupaApp.csproj": {
+    "C:\\Users\\ThomasG\\Source\\Repos\\CupaApp\\CupaApp\\CupaApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LucaE\\Source\\Repos\\CupaApp\\CupaApp\\CupaApp.csproj",
+        "projectUniqueName": "C:\\Users\\ThomasG\\Source\\Repos\\CupaApp\\CupaApp\\CupaApp.csproj",
         "projectName": "CupaApp",
-        "projectPath": "C:\\Users\\LucaE\\Source\\Repos\\CupaApp\\CupaApp\\CupaApp.csproj",
-        "packagesPath": "C:\\Users\\LucaE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LucaE\\Source\\Repos\\CupaApp\\CupaApp\\obj\\",
+        "projectPath": "C:\\Users\\ThomasG\\Source\\Repos\\CupaApp\\CupaApp\\CupaApp.csproj",
+        "packagesPath": "C:\\Users\\ThomasG\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ThomasG\\Source\\Repos\\CupaApp\\CupaApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\LucaE\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\ThomasG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -41,6 +40,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -17,8 +17,11 @@ namespace CupaApp.Controllers
         {
             return View();
         }
-        public IActionResult Privacy()
+        public IActionResult Privacy(string name, int numTimes = 1)
         {
+            ViewData["Message"] = "Hello " + name;
+            ViewData["NumTimes"] = numTimes;
+
             return View();
         }
     }
