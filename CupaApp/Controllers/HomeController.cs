@@ -22,7 +22,7 @@ namespace CupaApp.Controllers
 
         public string Welcome()
         {
-            return "This is the Welcome action method...";
+            return "Das ist der Welcome Text";
         }
     }
 }
