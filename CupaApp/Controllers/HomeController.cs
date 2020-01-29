@@ -33,5 +33,17 @@ namespace CupaApp.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+        public string Index2()
+        {
+            return "This is my default action...";
+        }
+
+        // 
+        // GET: /HelloWorld/Welcome/ 
+
+        public string Welcome()
+        {
+            return "This is the Welcome action method...";
+        }
     }
 }
