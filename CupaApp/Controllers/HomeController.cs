@@ -13,20 +13,13 @@ namespace CupaApp.Controllers
     public class HomeController : Controller
     {
         // GET: /Home/
-        public string Index()
+        public IActionResult Index()
         {
-            return "This is my default action...";
+            return View();
         }
-
-        // 
-        // GET: /Home/Welcome/ 
-
-        public string Welcome(string name, int numTimes = 1)
+        public IActionResult Privacy()
         {
-            return HtmlEncoder.Default.Encode($"Hello {name}, NumTimes is: {numTimes}");
-
+            return View();
         }
-
-
     }
 }
