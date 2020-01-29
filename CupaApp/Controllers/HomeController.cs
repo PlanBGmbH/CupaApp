@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using CupaApp.Models;
+using System.Text.Encodings.Web;
 
 namespace CupaApp.Controllers
 {
@@ -20,9 +21,12 @@ namespace CupaApp.Controllers
         // 
         // GET: /Home/Welcome/ 
 
-        public string Welcome()
+        public string Welcome(string name, int numTimes = 1)
         {
-            return "This is the Welcome action method...this will make you smile:)";
+            return HtmlEncoder.Default.Encode($"Hello {name}, NumTimes is: {numTimes}");
+
         }
+
+
     }
 }
