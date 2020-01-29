@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ThomasG\\source\\repos\\CupaApp\\CupaApp\\CupaApp.csproj": {}
+    "C:\\Users\\ThomasG\\Source\\Repos\\CupaApp\\CupaApp\\CupaApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ThomasG\\source\\repos\\CupaApp\\CupaApp\\CupaApp.csproj": {
+    "C:\\Users\\ThomasG\\Source\\Repos\\CupaApp\\CupaApp\\CupaApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ThomasG\\source\\repos\\CupaApp\\CupaApp\\CupaApp.csproj",
+        "projectUniqueName": "C:\\Users\\ThomasG\\Source\\Repos\\CupaApp\\CupaApp\\CupaApp.csproj",
         "projectName": "CupaApp",
-        "projectPath": "C:\\Users\\ThomasG\\source\\repos\\CupaApp\\CupaApp\\CupaApp.csproj",
+        "projectPath": "C:\\Users\\ThomasG\\Source\\Repos\\CupaApp\\CupaApp\\CupaApp.csproj",
         "packagesPath": "C:\\Users\\ThomasG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ThomasG\\source\\repos\\CupaApp\\CupaApp\\obj\\",
+        "outputPath": "C:\\Users\\ThomasG\\Source\\Repos\\CupaApp\\CupaApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
