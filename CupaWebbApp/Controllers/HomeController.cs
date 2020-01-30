@@ -28,6 +28,15 @@ namespace CupaWebbApp.Controllers
             return View();
         }
 
+        public IActionResult Räume()
+        {
+            return View();
+        }
+        public IActionResult SocialMedia()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
