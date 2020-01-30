@@ -24,7 +24,7 @@ namespace CupaApp.Controllers
 
             return View();
         }
-        public IActionResult AboutUs()
+        public IActionResult LoginForm()
         {
             return View();
         }
