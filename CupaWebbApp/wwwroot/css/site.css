@@ -27,8 +27,7 @@ a {
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  font-size: 14px;
-  background-color: black;
+    font-size: 14px;
 }
 @media (min-width: 768px) {
   html {
@@ -63,7 +62,6 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-  background-color: dimgray;
 }
 .footer {
   position: absolute;
@@ -78,11 +76,33 @@ body {
 
 #signInButton {
     background-color: orange;
-    border: none;
+    border: 1px;
+    border-radius: 5px;
     color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
     cursor: pointer;
+    outline: none;
+    
 }
+    #signInButton:hover {
+        background-color: #343a40;
+        text-decoration: underline;
+        color: orange;
+    }
+
+
+/*TODO: Bessere Lösung für Farbe der Nav-Links als !important*/
+
+.navbar-brand{
+    color: white !important;
+}
+
+/*TODO: Bessere Lösung für Farbe des Nav-Icons als !important*/
+
+.navbar-toggler{
+    background-color: white !important;
+}
+
